@@ -1,0 +1,128 @@
+body{
+    background-color: cadetblue;
+}
+
+.submenu{
+    margin-bottom: 35px;
+}
+
+#header_line{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card_list{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navigation{
+    padding-top: 45px;
+}
+
+#text_name{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+#text_name:hover{
+    transition: 1s;
+    background-color: cadetblue;
+}
+
+a.choice{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: greenyellow;
+}
+.card{
+    display: grid;
+    line-height: 50px;
+    grid-template-columns: 1fr;
+}
+
+img{
+    padding-left: 120px;
+    height: 400px;
+
+}
+
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    color: orange;
+}
+
+h3:hover{
+    transition: 1s;
+    color: greenyellow;
+}
+
+.comment{
+    text-align: center;
+}
+
+input{
+    height: 20px;
+    width: 185px;
+}
+
+h4{
+    font-family: 'Rubik', sans-serif;
+    margin-left: 15px;
+    font-size: 40px;
+    color: orange;
+}
+
+p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    color: greenyellow;
+    background-color: orange;
+}
+
+button.send{
+    font-family: 'Rubik', sans-serif;
+    background-color: greenyellow;
+    height: 25px;
+}
+
+button.send:hover{
+    transition: 1s;
+    background-color: orange;
+}
+
+p:hover{
+    transition: 1s;
+    color: orange;
+    background-color: cadetblue;
+}
+
+span{
+    font-family: 'Rubik', sans-serif;
+    color: greenyellow;
+    font-size: 26px;
+}
+
+.products{
+    line-height: 28px;
+}
+
+span.menu{
+    color: greenyellow;
+    font-size: 30px;
+}
+
+span.menu:hover{
+    background-color: orange;
+    color: cadetblue;
+    transition: 1s;
+}
+
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 46px;
+    padding-left: 15px;
+    color: orange;
+}
