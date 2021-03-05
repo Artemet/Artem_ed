@@ -9,14 +9,25 @@
     <title>Artem_ed</title>
 </head>
 <body>
+<div class="space_block">
+    <img src="https://img.tile.expert/img_lb/marazzi/absolute-white/per_sito/minimali/b_marazzi_absolute_white_m023_absolutewhitestrutt.twist3dlux.jpg?27" class="space">
+</div>
 <div id="header_line">
     <h1>Artem</h1>
     <div class="navigation">
         <div class="choice" id="nav">
             <div class="menu-item">
-                <span class="menu">youtube</span>
+                <span class="menu" id="menu_color" onclick="click_color()">youtube</span>
                 <div class="submenu">
                     <div class="products" id="productsMenu">
+                        <a href="https://www.youtube.com/watch?v=BDBbim1GZq0&t=14s" class="choice">Пробую делать игру паркур</a>
+                        <a href="https://www.youtube.com/watch?v=wFvgM2H4Ia8" class="choice">Готовим движок для игр</a>
+                        <a href="https://www.youtube.com/watch?v=0nfHrAaNgtI&t=5s" class="choice">Программиа со словарикам</a>
+                        <a href="https://www.youtube.com/watch?v=D6cKdmeHp8g&t=828s" class="choice">Сайт на Java Script</a>
+                        <a href="https://www.youtube.com/watch?v=eqMMf7fpa7A" class="choice">Как рисовать на python?</a>
+                        <a href="https://www.youtube.com/watch?v=h9Pgs6sd4j8&t=169s" class="choice">Игра на python</a>
+                        <a href="https://www.youtube.com/watch?v=h9Pgs6sd4j8&t=168s" class="choice">Программа со списками</a>
+                        <a href="https://www.youtube.com/watch?v=ZvnUwiIXKss&t=50s" class="choice">Что такое git hub?</a>
                         <a href="https://www.youtube.com/watch?v=m0P0dIixo28" class="choice">Изучение языка программирования java часть 2</a>
                         <a href="https://www.youtube.com/watch?v=mQCD9-ksfmQ&t=819s" class="choice">Программа на python часть 2</a>
                         <a href="https://www.youtube.com/watch?v=2-XUfWRAyA0&t=2s" class="choice">Изучение языка программирования java часть 1</a>
@@ -46,80 +57,112 @@
 </div>
 <div class="card_list" id="product">
     <div class="card">
-        <img src="data:image/png;base64,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">
-        <span>Изучение java часть 2</span>
+        <img src="https://cdn2.unrealengine.com/egs-summersale-store-toast-400x400-550356646.jpg" onclick="epic_game_play()">
+        <span onclick="epic_game_play()">Делаем игру паркур</span>
     </div>
     <div class="card">
-        <img src="https://cdn.auth0.com/blog/jsleaks/logo.png">
-        <span>Изучение JavaScript часть 5</span>
+        <img src="https://paganresearch.io/images/epicgames.jpg" onclick="epic_game_download()">
+        <span onclick="epic_game_download()">Готовим движок для игр</span>
     </div>
     <div class="card">
-        <img src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png">
-        <span>Программа на python часть 1</span>
+        <img src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png" onclick="lovar_py()">
+        <span onclick="lovar_py()">Программа со словариками</span>
     </div>
     <div class="card">
-        <img src="https://cdn.auth0.com/blog/jsleaks/logo.png">
-        <span>Изучение JavaScript часть 4</span>
+        <img src="https://cdn.auth0.com/blog/jsleaks/logo.png" onclick="veb_js_one()">
+        <span onclick="veb_js_one()">Сайт на js</span>
     </div>
     <div class="card">
-        <img src="https://unity3d.com/profiles/unity3d/themes/unity/images/pages/branding_trademarks/unity-tab-square-black.png">
-        <span>Изучение unity часть 1</span>
+        <img src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png" onclick="draw_python()">
+        <span onclick="draw_python()">Как рисовать на python?</span>
     </div>
     <div class="card">
-        <img src="https://i.pinimg.com/originals/6f/73/e8/6f73e815d288686bd39c2ee2e42f0f6b.png">
-        <span>Изучение c# часть 3</span>
+        <img src="https://alanferrandiz.files.wordpress.com/2020/09/github_logo.png" onclick="what_github()">
+        <span onclick="what_github()">Что такое git hub?</span>
     </div>
     <div class="card">
-        <img src="https://cdn.auth0.com/blog/jsleaks/logo.png">
-        <span>Изучение JavaScript часть 3</span>
+        <img src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png" onclick="game_python()">
+        <span onclick="game_python()">Игра на python</span>
     </div>
     <div class="card">
-        <img src="https://i.pinimg.com/originals/6f/73/e8/6f73e815d288686bd39c2ee2e42f0f6b.png">
-        <span>Изучение c# часть 2</span>
+        <img src="https://cdn.auth0.com/blog/jsleaks/logo.png" onclick="lern_javaScript_four()">
+        <span onclick="lern_javaScript_four()">Изучение JavaScript часть 4</span>
     </div>
     <div class="card">
-        <img src="https://cdn.auth0.com/blog/jsleaks/logo.png">
-        <span>Можно ли кодить только на JS?</span>
+        <img src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png" onclick="programm_arr()">
+        <span onclick="programm_arr()">Программа со списками</span>
     </div>
     <div class="card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwhavnqKNeVQwHQbqoIspp3ymq7ZoDxupUQ&usqp=CAU">
-        <span>Копирование сайтов часть 3</span>
+        <img src="https://cdn.auth0.com/blog/jsleaks/logo.png" onclick="lern_java()">
+        <span onclick="lern_java()">Изучение java часть 2</span>
     </div>
     <div class="card">
-        <img src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png">
-        <span>Изучение python часть 3</span>
+        <img src="https://cdn.auth0.com/blog/jsleaks/logo.png" onclick="lern_javaScript_five()">
+        <span onclick="lern_javaScript_five()">Изучение JavaScript часть 5</span>
     </div>
     <div class="card">
-        <img src="https://cdn.auth0.com/blog/jsleaks/logo.png">
-        <span>Как сделать менюшку на JS!</span>
+        <img src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png" onclick="programm_python_one()">
+        <span onclick="programm_python_one()">Программа на python часть 1</span>
     </div>
     <div class="card">
-        <img src="https://i.pinimg.com/originals/6f/73/e8/6f73e815d288686bd39c2ee2e42f0f6b.png">
-        <span>Изучение c# часть 1</span>
+        <img src="https://unity3d.com/profiles/unity3d/themes/unity/images/pages/branding_trademarks/unity-tab-square-black.png" onclick="lesson_unity_one()">
+        <span onclick="lesson_unity_one()">Изучение unity часть 1</span>
     </div>
     <div class="card">
-        <img src="https://cdn.auth0.com/blog/jsleaks/logo.png">
-        <span>Изучение JavaScript часть 1</span>
+        <img src="https://i.pinimg.com/originals/6f/73/e8/6f73e815d288686bd39c2ee2e42f0f6b.png" onclick="lesson_cSharp_three()">
+        <span onclick="lesson_cSharp_three()">Изучение c# часть 3</span>
     </div>
     <div class="card">
-        <img src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png">
-        <span>Изучение python часть 2</span>
+        <img src="https://cdn.auth0.com/blog/jsleaks/logo.png" onclick="lesson_javaScript_three()">
+        <span onclick="lesson_javaScript_three()">Изучение JavaScript часть 3</span>
     </div>
     <div class="card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwhavnqKNeVQwHQbqoIspp3ymq7ZoDxupUQ&usqp=CAU">
-        <span>Копирование сайтов часть 2</span>
+        <img src="https://i.pinimg.com/originals/6f/73/e8/6f73e815d288686bd39c2ee2e42f0f6b.png" onclick="lesson_cSharp_two()">
+        <span onclick="lesson_cSharp_two()">Изучение c# часть 2</span>
     </div>
     <div class="card">
-        <img src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png">
-        <span>Изучение python часть 1</span>
+        <img src="https://cdn.auth0.com/blog/jsleaks/logo.png" onclick="code_javaScript()">
+        <span onclick="code_javaScript()">Можно ли кодить только на JS?</span>
     </div>
     <div class="card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwhavnqKNeVQwHQbqoIspp3ymq7ZoDxupUQ&usqp=CAU">
-        <span>Копирование сайтов часть 1</span>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwhavnqKNeVQwHQbqoIspp3ymq7ZoDxupUQ&usqp=CAU" onclick="copy_veb_three()">
+        <span onclick="copy_veb_three()">Копирование сайтов часть 3</span>
     </div>
     <div class="card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwhavnqKNeVQwHQbqoIspp3ymq7ZoDxupUQ&usqp=CAU">
-        <span>Изучение HTML часть 1</span>
+        <img src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png" onclick="lern_python_three()">
+        <span onclick="lern_python_three()">Изучение python часть 3</span>
+    </div>
+    <div class="card">
+        <img src="https://cdn.auth0.com/blog/jsleaks/logo.png" onclick="menu_javaScript()">
+        <span onclick="menu_javaScript()">Как сделать менюшку на JS!</span>
+    </div>
+    <div class="card">
+        <img src="https://i.pinimg.com/originals/6f/73/e8/6f73e815d288686bd39c2ee2e42f0f6b.png" onclick="lern_cSharp_one()">
+        <span onclick="lern_cSharp_one()">Изучение c# часть 1</span>
+    </div>
+    <div class="card">
+        <img src="https://cdn.auth0.com/blog/jsleaks/logo.png" onclick="lern_javaScript_one()">
+        <span onclick="lern_javaScript_one()">Изучение JavaScript часть 1</span>
+    </div>
+    <div class="card">
+        <img src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png" onclick="lern_python_two()">
+        <span onclick="lern_python_two()">Изучение python часть 2</span>
+    </div>
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwhavnqKNeVQwHQbqoIspp3ymq7ZoDxupUQ&usqp=CAU "onclick="copy_veb_two()">
+        <span onclick="copy_veb_two()">Копирование сайтов часть 2</span>
+    </div>
+    <div class="card">
+        <img src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png" onclick="copy_python_one()">
+        <span onclick="copy_python_one()">Изучение python часть 1</span>
+    </div>
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwhavnqKNeVQwHQbqoIspp3ymq7ZoDxupUQ&usqp=CAU" onclick="copy_veb_one()">
+        <span onclick="copy_veb_one()">Копирование сайтов часть 1</span>
+    </div>
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwhavnqKNeVQwHQbqoIspp3ymq7ZoDxupUQ&usqp=CAU" onclick="lern_veb_one()">
+        <span onclick="lern_veb_one()">Изучение HTML часть 1</span>
     </div>
 </div>
 <div id="text_name">
