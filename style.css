@@ -6,7 +6,22 @@ body{
     margin-bottom: 35px;
 }
 
+img.space{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+.space_block{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 #header_line{
+    position: fixed;
+    top: 0;
+    background-color: purple;
+    width: 99.2%;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -34,7 +49,7 @@ body{
 a.choice{
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
-    color: greenyellow;
+    color: cadetblue;
 }
 .card{
     display: grid;
@@ -105,18 +120,24 @@ span{
     font-size: 26px;
 }
 
+span.menu{
+    margin-bottom: 20px;
+}
+
 .products{
+    margin-top: 20px;
+    background-color: orange;
     line-height: 28px;
 }
 
 span.menu{
-    color: greenyellow;
+    color: orange;
     font-size: 30px;
 }
 
 span.menu:hover{
-    background-color: orange;
-    color: cadetblue;
+    background-color: cadetblue;
+    color: orange;
     transition: 1s;
 }
 
